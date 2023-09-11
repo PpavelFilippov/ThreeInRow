@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="3in1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SFML\;CMake Files\SFML\lib\;CMake Files\SFML\lib\cmake\;CMake Files\SFML\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3in1">
+				<Option output="D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/3in1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/SFML/lib/cmake/SFML"/>
+					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 3in1"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3in1/fast">
+				<Option output="D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/3in1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/SFML/lib/cmake/SFML"/>
+					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 3in1/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/JetBrains/CLionProjects/ThreeInRow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/Bonuses.cpp">
+			<Option target="3in1"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/Builder.cpp">
+			<Option target="3in1"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/Header.h">
+			<Option target="3in1"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/Object.cpp">
+			<Option target="3in1"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/Render.cpp">
+			<Option target="3in1"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/UI.cpp">
+			<Option target="3in1"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/main.cpp">
+			<Option target="3in1"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/SFML/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/ThreeInRow/SFML/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

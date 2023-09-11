@@ -139,7 +139,7 @@ void Actions(Builder *Matrix, Render *Field, sf::RenderWindow *window, SelectedI
     mat_y = new int;
 
 
-	std::cout << "X: " << sf::Mouse::getPosition(*window).x << "\tY: " << sf::Mouse::getPosition(*window).y << "\n";
+	//std::cout << "X: " << sf::Mouse::getPosition(*window).x << "\tY: " << sf::Mouse::getPosition(*window).y << "\n";
 
     if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
     {

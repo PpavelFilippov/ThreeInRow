@@ -15,13 +15,13 @@ int main()
     while (window.isOpen())
     {
         //Main Menu
-        //MainMenu(&Matrix, &Field, &window);
+        MainMenu(&Matrix, &Field, &window);
 
         //main game
         GameProcess(&Matrix, &Field, &window);
 
         //End
-       // DeathScreen(&Matrix, &Field, &window);
+        DeathScreen(&Matrix, &Field, &window);
     }
 
     return 0;
